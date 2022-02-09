@@ -4,8 +4,11 @@ width: 200px;
 height: 200px;
 margin-left: 5px;
 margin-right: 5px;
+margin-top: 13px;
 }
+.guy{
 
+}
 #back {
     display: flex;
     color: rgb(200, 94, 94);
@@ -21,7 +24,10 @@ margin-right: 5px;
 }
 
 body {
+    background-image: url("/assets/Baseball.svg.png");
     background-color: aqua;
+    font-family: 'Rowdies', cursive;
+
     /* display: flex; */
     /* flex-direction: column; */
     /* align-items: center; */
@@ -33,6 +39,11 @@ main {
     justify-content: center;
 }
 div {
+    text-align: center;
+    padding-left: 13px;
+    padding-right: 13px;
+    width: 50%;
+    background-color: rgba(224, 219, 212, 0.726);
     overflow: hidden;
 
 }

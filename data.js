@@ -14,7 +14,7 @@ export const guys = [{
     name: `Greg Maddux`,
     id: `3`,
     position: `Pitcher`,
-    fact: `he was the first pitcher in major league history to win the Cy Young Award four consecutive years (1992–1995), matched by only one other pitcher, Randy Johnson.`,
+    fact: `He was the first pitcher in major league history to win the Cy Young Award four consecutive years (1992–1995), matched by only one other pitcher, Randy Johnson.`,
     quote2: 0,
 }, {
     name: `Roger Clemens`,

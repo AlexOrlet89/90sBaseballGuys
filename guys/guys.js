@@ -16,7 +16,7 @@ const fact = document.getElementById('fact');
 const title = document.querySelector('title');
 const position = document.getElementById('position');
 
-position.textContent =`Position Played: ${dude.position}`;
+position.textContent = `Position Played: ${dude.position}`;
 name.textContent = `${dude.name}`;
 fact.textContent = `${dude.fact}`;
 title.textContent = `hey, it's ${dude.name}`;
