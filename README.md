@@ -1,5 +1,29 @@
-an HTML with 
+an HTML similar to our animal farm project as we will be looping and rendering and appending our data 
 
+
+## rubric
+Learning Objectives
+Render a list of items with a link to a detail page (list / detail pattern)
+Use URLSearchParams to get additional data about a web page
+Use a function to filter an item from a list of data using an identifier
+Description
+This deliverable is a little more open-ended. You will use one of your lists of data from your spotlight topic last week and create a web application using the list / detail pattern. Your app should consist of two pages – the home page which lists out all your items, and a detail page which uses URLSearchParams to render an individual item. You should also use this deliverable to practice CSS and add some fun styling to the page.
+
+Acceptance Criteria
+Users should see a list of items on the home page
+Users should be able to click on each item on the home page and be taken to a detail page
+The detail page should use URLSearchParams to load an individual item
+Rubric
+Task	Points
+** Deploy Requirements **	 
+Main branch deployed to Netlify	1
+Open PR from dev branch with Netlify deploy preview	1
+** Code Requirements **	 
+Home page shows list of items with links to detail page	4
+TDD Render Function for home page items	4
+Detail page uses URLSearch params	4
+Detail page uses findById function	4
+CSS Styling	2
 
 ## The Golden Rule: 
 
