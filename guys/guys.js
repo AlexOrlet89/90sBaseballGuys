@@ -15,7 +15,7 @@ const name = document.getElementById('name');
 const fact = document.getElementById('fact'); 
 const title = document.querySelector('title');
 
-name.textContent = `remember ${dude.name}`;
+name.textContent = `${dude.name}`;
 fact.textContent = `${dude.fact}`;
 title.textContent = `hey, it's ${dude.name}`;
 picture.src = `/assets/${dude.name}.jpg`;

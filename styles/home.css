@@ -1,1 +1,51 @@
 /* add home page styles here */
+img {
+width: 200px;
+height: 200px;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+#back {
+    display: flex;
+    color: rgb(200, 94, 94);
+    font-size: larger ;
+    margin-bottom: 50px;
+    align-items: flex-start;
+}
+
+#guy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background-color: aqua;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+
+main {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+div {
+    overflow: hidden;
+
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    /* align-items: center; */
+    /* align-self: center; */
+    /* align-content: center; */
+    text-align: center;
+}
