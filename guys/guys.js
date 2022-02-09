@@ -18,3 +18,4 @@ const title = document.querySelector('title');
 name.textContent = `remember ${dude.name}`;
 fact.textContent = `${dude.fact}`;
 title.textContent = `hey, it's ${dude.name}`;
+picture.src = `/assets/${dude.name}.jpg`;

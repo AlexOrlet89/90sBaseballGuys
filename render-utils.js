@@ -3,7 +3,7 @@ export function renderGuys(guy) {
     div.classList.add('Guy');
 
     const img = document.createElement('img');
-    img.src = `./assets/${guy.name}.xxx`;
+    img.src = `./assets/${guy.name}.jpg`;
 
     const a = document.createElement('a');
     a.href = `./guys/?id=${guy.id}`;
